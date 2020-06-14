@@ -1,0 +1,67 @@
+/* --------- CSS FOR MOBILE ---------*/
+
+@media screen and (max-width: 375px ){
+	.body{
+		width: 90%;
+		font-size: 95%;
+	}
+
+	/* ------------------------ mainheader MOB ------------------ */
+
+
+
+.mainheader nav{
+	height: 160px;
+}
+
+.mainheader ul{
+	width: 100%;
+	padding: 0;
+}
+
+
+.mainheader nav ul li{
+	display: inline;
+
+}
+.mainheader a:link, .mainheader a:visited{
+
+	display: block;
+
+
+}
+
+
+.mainheader a:hover, .mainheader a:active{
+	color: white;
+	background-color: #f58233;
+	text-shadow: 1px 1px #000;
+
+}
+
+.mainContent{
+	width: 100%;
+	
+}
+
+.theSidebar{
+	width: 94%;	
+
+}
+
+
+}
+
+/* --------- CSS FOR IPAD ---------*/
+
+@media screen and (max-width: 680px ){
+	.body{
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.mainheader nav{
+		font-size: 80%;
+	}
+
+}

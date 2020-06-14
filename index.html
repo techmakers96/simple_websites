@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HMTL  - CSS3 RESPONSIVE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylemob.css" media="screen and (max-width:375px)">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+</head>
+<body class="body">
+	<!-------------- header start -------------->
+	<header class="mainheader">
+		 <img src="images/header2.jpg" >
+		<nav>
+			<ul>
+				<li> <a href="#">HOME</a></li>
+				<li> <a href="#">PORTFOLIO</a></li>
+				<li> <a href="#">ABOUT</a></li>
+				<li> <a href="#">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!------------ header end -------------->
+
+    <!------------ MAIN CONTENT START -------------->
+	<div class="mainContent">
+		<section class="top-content">
+			<header>
+				<h2><a href="#">MY INTRO MUSIC</a> </h2>
+			</header>
+			<footer>
+				<p class="post-info">Written by: Ramze Jarad</p>
+			</footer>
+			<article>
+				<figure>
+					<img src="images/piano.jpg" class="post-img">
+					<figcaption>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    tempor incididunt ut labore et dolore magna
+					 </figcaption>
+				</figure>
+				<audio src="media/piano.mp3" controls=""> 
+					<p>your browser doesn't support audio files</p>
+				</audio>
+
+				<p class="post-content">
+					Lorem ipsum <bdi> <mark> موسيقى بيانو</mark></bdi> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu <mark>fugiat nulla pariatur</mark>. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+					<details> 
+						<summary><mark>For more info press</mark></summary>
+						Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				    </details>
+
+				</p>
+			</article>
+		</section>
+
+		<section class="top-content">
+			<header>
+				<h2><a href="#">MY VIDEO</a> </h2>
+			</header>
+			<footer>
+				<p class="post-info">Written by: Ramze Jarad</p>
+			</footer>
+			<article>
+				<video src="media/piano.mp4" controls="" width="100%" >
+					<p>your browser doesn't support video files</p>
+				</video>
+				<p class="post-content">
+					<small>Lorem ipsum dolor sit amet, consectetur </small> <br> adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br>
+					<br>
+					<span>Photoshop</span>
+					<meter value="40" min="0" max="100"></meter>
+					<br>
+					<span>Illustrator</span>
+					<meter value="80" min="0" max="100"></meter>
+					<br>
+					<span>Indesign</span>
+					<progress value="30"  max="100"> </progress>
+					<br>
+					<span>HTML5</span>
+					<progress value="90"  max="100"> </progress>
+					<br>
+				</p>
+			</article>
+		</section>
+
+		<section class="top-content">
+			<header>
+				<h2><a href="#">MUSIC I LIKE FROM YOUTUBE</a> </h2>
+			</header>
+			<footer>
+				<p class="post-info">Written by: Ramze Jarad</p>
+			</footer>
+			<article>
+				<img src="images/logo.svg" width="200px">
+				
+				<p class="post-content">
+					Lorem ipsum dolor sit amet, consectetur  adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				</p>
+				<iframe width="100%" height="315" src="https://www.youtube.com/embed/3XyOgx9bCUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			</article>
+		</section>
+
+	</div>
+
+	<!-------------- MAIN CONTENT END -------------->
+    
+    <!-------------- ASIDE CONTENT START -------------->
+	<aside>
+		<article class="theSidebar">
+			<H1> <a href="#">YOU CAN EDIT THIS</a> </H1>
+			<ul contenteditable="true">TO DO LIST
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		
+
+		</article>
+	</aside>
+
+	<aside>
+		<article class="theSidebar">
+			<H1> <a href="#">SECOND SIDE BAR</a> </H1>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+		</article>
+	</aside>
+
+	<aside>
+		<article class="theSidebar">
+			<H1> <a href="#">THIRD SIDE BAR</a> </H1>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+		</article>
+	</aside>
+	<!-------------- ASIDE CONTENT END -------------->
+	<footer class="footer">
+		<P> copy right : Tech Makers Co.</P>
+	</footer>
+</body>
+</html>
